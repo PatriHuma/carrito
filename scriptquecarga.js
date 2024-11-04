@@ -1,3 +1,5 @@
+//lo dejo aqui porque cada vez que me perdia empezaba desde aquí
+
 var productos = [];
 document.addEventListener('DOMContentLoaded', function(event) {
 // Función para cargar la tabla
@@ -24,7 +26,7 @@ function cargarTabla(productos) {
         fila.appendChild(precUnitario);
 
         const total = document.createElement('td');
-        total.innerText = (product.price); // Muestra el precio como total (puedes ajustarlo según la cantidad)
+        total.innerText = (product.price); //precio como total ( según la cantidad)
         fila.appendChild(total);
         //`${parseFloat(product.price).toFixed(2)} €`;
         tablaproductos.appendChild(fila);

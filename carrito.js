@@ -9,7 +9,7 @@ class Carrito {
     constructor() {
         this.productos = []; // Array para almacenar los productos
     }
-
+    //no sé si funcionan porque no las he podido implementar
     agregarProducto(sku, title, price) {
         const productoExistente = this.productos.find(product => product.sku === sku);
         if (productoExistente) {
